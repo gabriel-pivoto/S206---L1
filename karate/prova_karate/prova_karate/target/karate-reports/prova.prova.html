@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>prova.prova</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">4</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2023-12-03 05:08:23 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>get all users and then get the first user by id</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:11]"><span>[2:11]</span> <span>Pegando elementos do array de response e testando o tipo</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3:20]"><span>[3:20]</span> <span>Testando o get de informações</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[4:26]"><span>[4:26]</span> <span>Testando o get de informações - negativa</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[5:31]"><span>[5:31]</span> <span>Testando metodo delete</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">prova/prova.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Suite de teste para a prova na parte referente ao Karate</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">get all users and then get the first user by id</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>4369</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:6]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:6]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://gorest.co.in/public/v2&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">17:08:14.585 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4362</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8">17:08:14.925 request:
+1 &gt; GET https://gorest.co.in/public/v2/users
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:08:19.011 response time in milliseconds: 4055
+1 &lt; 200
+1 &lt; Date: Sun, 03 Dec 2023 20:08:18 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; etag: W/&quot;2c00deaf44e6b01426dacb512bdc0243&quot;
+1 &lt; referrer-policy: strict-origin-when-cross-origin
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-download-options: noopen
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 &lt; x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 &lt; x-links-previous: 
+1 &lt; x-pagination-limit: 10
+1 &lt; x-pagination-page: 1
+1 &lt; x-pagination-pages: 289
+1 &lt; x-pagination-total: 2881
+1 &lt; x-permitted-cross-domain-policies: none
+1 &lt; x-request-id: f2d91297-66bd-4c8d-a6a2-7e4d761a85d2
+1 &lt; x-runtime: 0.037276
+1 &lt; x-xss-protection: 0
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=NkXoRyOKndPnerq7tjPEC80Q%2FalxMNXv0HNVVZcVbsxXVRyvM6khbVBmk9Jvt5UDs2deJ26CmzuJpm5sgcI1m%2FMzsO6CbFCvRHBNBdzOb%2FWyoAPYNUOKcgrdynkmBUw%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 82fe70c5e987a514-GRU
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+[{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Swarnalata Bharadwaj&quot;,&quot;id&quot;:5807606,&quot;email&quot;:&quot;bharadwaj_swarnalata@collier-hyatt.test&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Buddhana Shukla&quot;,&quot;id&quot;:5807605,&quot;email&quot;:&quot;buddhana_shukla@streich.example&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Prof. Dinkar Mukhopadhyay&quot;,&quot;id&quot;:5807604,&quot;email&quot;:&quot;prof_dinkar_mukhopadhyay@thiel-daugherty.test&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Giriraaj Somayaji&quot;,&quot;id&quot;:5807602,&quot;email&quot;:&quot;somayaji_giriraaj@trantow-bruen.example&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Vedang Patel&quot;,&quot;id&quot;:5807601,&quot;email&quot;:&quot;patel_vedang@romaguera.example&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Aarya Gowda&quot;,&quot;id&quot;:5807600,&quot;email&quot;:&quot;aarya_gowda@kessler.test&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Digambar Sethi III&quot;,&quot;id&quot;:5807599,&quot;email&quot;:&quot;iii_sethi_digambar@hamill.example&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Bhaaswar Banerjee DC&quot;,&quot;id&quot;:5807598,&quot;email&quot;:&quot;banerjee_bhaaswar_dc@denesik.test&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Chitraksh Khatri&quot;,&quot;id&quot;:5807597,&quot;email&quot;:&quot;chitraksh_khatri@veum.test&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Bodhan Nair&quot;,&quot;id&quot;:5807596,&quot;email&quot;:&quot;nair_bodhan@jacobi.example&quot;,&quot;status&quot;:&quot;active&quot;}]
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:11]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:11]</span>
+                <span class="scenario-name">Pegando elementos do array de response e testando o tipo</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1207</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:11]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:11]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://gorest.co.in/public/v2&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">17:08:19.025 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;posts&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1176</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.13">17:08:19.029 request:
+1 &gt; GET https://gorest.co.in/public/v2/posts
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:08:20.203 response time in milliseconds: 1173
+1 &lt; 200
+1 &lt; Date: Sun, 03 Dec 2023 20:08:19 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; etag: W/&quot;16cd482eea0f5ab751f8d2f202b0d48e&quot;
+1 &lt; referrer-policy: strict-origin-when-cross-origin
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-download-options: noopen
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 &lt; x-links-next: https://gorest.co.in/public/v2/posts?page=2
+1 &lt; x-links-previous: 
+1 &lt; x-pagination-limit: 10
+1 &lt; x-pagination-page: 1
+1 &lt; x-pagination-pages: 295
+1 &lt; x-pagination-total: 2947
+1 &lt; x-permitted-cross-domain-policies: none
+1 &lt; x-request-id: 211b41ff-37e0-4b0d-8e4b-bd57c6257831
+1 &lt; x-runtime: 0.053941
+1 &lt; x-xss-protection: 0
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=OfwnUW490aWwtwKzBAn0eXsv9tvOBu36XrD5UGOvMkoPJ1940ZKYa44bB49NausH9xugYzUrMtyKB%2BP28qtE87LpfVBUNBXdo1nRSeqMtDy%2F%2BZ%2BAL%2BvWLkD8oy%2F2EWk%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 82fe70e1e8bd0373-CDG
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+[{&quot;user_id&quot;:5807619,&quot;id&quot;:87659,&quot;title&quot;:&quot;Amaritudo bis speculum at ad usque volutabrum sunt.&quot;,&quot;body&quot;:&quot;Vinculum deprimo demonstro. Unde eveniet vos. Ara curis crapula. Thymum strenuus aro. Alias aut solio. Alioqui una subnecto. Aspernatur antiquus est. Rerum conduco despirmatio. Tunc territo caute. Eligendi denego totus. Voluptatum cum convoco. Cicuta theatrum corrigo. Curto in ipsa. Benigne in abeo. Cauda ventus stillicidium. Summa utor commodi.&quot;},{&quot;user_id&quot;:5807613,&quot;id&quot;:87656,&quot;title&quot;:&quot;Viriliter totus acerbitas varietas currus socius.&quot;,&quot;body&quot;:&quot;Civis tempora dolore. Enim aegrotatio tardus. Currus consequuntur talus. Tergeo sto apparatus. Volutabrum cribro tergo. Confido supellex reiciendis. Arbor tabella vorago. Vero arcesso contabesco. Combibo color turpe. Turba omnis despecto. Cariosus crustulum sponte. Caute eum tergeo. Admoneo vehemens volva. Varius aegrotatio exercitationem. Strues maiores sum. Cito umbra stabilis. Usque adduco id. Casus sollers adaugeo. Candidus tepidus triginta.&quot;},{&quot;user_id&quot;:5807613,&quot;id&quot;:87655,&quot;title&quot;:&quot;Spes vomito credo accusator bibo ubi sol.&quot;,&quot;body&quot;:&quot;Quasi brevis cunabula. Vulgivagus coadunatio ea. Stultus dignissimos sponte. Canto cribro corpus. Rerum considero doloribus. Vae sed colligo. Thalassinus sopor uberrime. Ut certe nam. Incidunt admoveo sodalitas. Basium vos xiphias. Balbus viduo atrocitas. Vox acceptus vulgivagus.&quot;},{&quot;user_id&quot;:5807612,&quot;id&quot;:87654,&quot;title&quot;:&quot;Defigo conqueror votum tergiversatio termes creber sunt.&quot;,&quot;body&quot;:&quot;Apto suggero sulum. Minima bestia brevis. Constans peccatus tubineus. Officia et ars. Adulatio agnosco tenax. Animi beatae teneo. Balbus clibanus defungo. Termes consequatur cimentarius. Usus voluptas degero. Adaugeo cimentarius voluptas. Ait calamitas et. Tot amitto carcer. Tamisium peior tenax. Arguo vicissitudo molestiae. Aurum pecco crustulum. Sodalitas nemo aliquam.&quot;},{&quot;user_id&quot;:5807612,&quot;id&quot;:87653,&quot;title&quot;:&quot;Conqueror terra aut vero trucido ascit infit demergo.&quot;,&quot;body&quot;:&quot;Aegre ea ventus. Decerno voluptas sordeo. Fugit cimentarius coniuratio. Damnatio tunc vestigium. Omnis uredo coruscus. Chirographum crapula tamen. Animadverto tyrannus consequatur. Decimus solvo argentum. Taedium tricesimus adfectus. Artificiose canonicus curtus. Theca pax voco. Auxilium aut sit. Degero aut et. Odit vitiosus sui.&quot;},{&quot;user_id&quot;:5807607,&quot;id&quot;:87648,&quot;title&quot;:&quot;Somniculosus et deporto pax vigilo bene maiores succedo cognatus.&quot;,&quot;body&quot;:&quot;Atque repudiandae viscus. Verus terror clementia. Ambulo denuncio cinis. Ademptio necessitatibus benevolentia. Volva vindico subiungo. Virtus eos autem. Constans ara dapifer. Qui convoco comptus. Triduana viriliter tabernus. Strenuus accipio agnitio. Repellat possimus templum. Soleo depraedor statim. Sursum eaque acer.&quot;},{&quot;user_id&quot;:5807604,&quot;id&quot;:87647,&quot;title&quot;:&quot;Sub vel solvo tametsi animi.&quot;,&quot;body&quot;:&quot;Qui convoco addo. Cauda voluptate celebrer. Abstergo dedico accommodo. Cilicium compello labore. Callide tutis expedita. Vero recusandae curvus. Cado vox summopere. Capillus despecto tribuo. Decerno ambulo fugit. Virgo vulpes tactus. Despirmatio cito cuius.&quot;},{&quot;user_id&quot;:5807601,&quot;id&quot;:87646,&quot;title&quot;:&quot;Alienus spiculum abutor caterva uxor.&quot;,&quot;body&quot;:&quot;Aut apparatus doloremque. Cohibeo theatrum deprimo. Creber defendo ver. Eaque nobis correptius. Placeat agnitio soluta. Apparatus talus verto. Vix urbs temptatio. Benevolentia adimpleo patruus. Conturbo spero conculco. Placeat voluptate atavus. Tunc sint voluptatum. Tempore conservo pecco.&quot;},{&quot;user_id&quot;:5807600,&quot;id&quot;:87645,&quot;title&quot;:&quot;Abduco dolorem cinis provident sum terebro.&quot;,&quot;body&quot;:&quot;Corona amplitudo esse. Vomica demitto subnecto. Tabula aut quia. Tenuis statua calco. Voluptate charisma demitto. Aspicio torrens amita. Audeo clementia ut. Adhaero sophismata denique. Spectaculum constans utique. Compono subiungo aranea. Sunt creta ipsa. Comes balbus comis.&quot;},{&quot;user_id&quot;:5807599,&quot;id&quot;:87644,&quot;title&quot;:&quot;Despirmatio aspicio explicabo quod sopor.&quot;,&quot;body&quot;:&quot;Vado despirmatio vereor. Cetera impedit sodalitas. Attero absum eum. Voluptate cupio pecunia. Clibanus crudelis certo. Derideo terminatio conatus. Argumentum stabilis admoveo. Canonicus dolor adaugeo. Soluta caries verto. Casso utpote sortitus. Totidem quia cubitum. Tepidus confugo crux. Tenax sonitus depromo. Commodo summopere repellat. Alo accendo thymum. Causa velit officia.&quot;}]
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match $ == &#39;#[]&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match $ == &#39;#[10]&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match each $..name == &#39;#string&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">14</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match each $..id == &#39;#number&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:20]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:20]</span>
+                <span class="scenario-name">Testando o get de informações</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1257</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:20]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://gorest.co.in/public/v2&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">17:08:20.241 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;posts&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1255</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.22">17:08:20.245 request:
+1 &gt; GET https://gorest.co.in/public/v2/posts
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:08:21.497 response time in milliseconds: 1251
+1 &lt; 200
+1 &lt; Date: Sun, 03 Dec 2023 20:08:21 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; etag: W/&quot;16cd482eea0f5ab751f8d2f202b0d48e&quot;
+1 &lt; referrer-policy: strict-origin-when-cross-origin
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-download-options: noopen
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 &lt; x-links-next: https://gorest.co.in/public/v2/posts?page=2
+1 &lt; x-links-previous: 
+1 &lt; x-pagination-limit: 10
+1 &lt; x-pagination-page: 1
+1 &lt; x-pagination-pages: 295
+1 &lt; x-pagination-total: 2947
+1 &lt; x-permitted-cross-domain-policies: none
+1 &lt; x-request-id: 2fa0c286-5aaa-4969-845a-c7dafcee874f
+1 &lt; x-runtime: 0.037289
+1 &lt; x-xss-protection: 0
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=FEktoE3tKREU9OIyEFqjjqRP6YlvmEFvDuAs0vM%2BcFqmByEud%2Bm7Z3DeO25sLkh3y3FOpM3nKLCPN2BeoRXxljfoXI%2FOpUyJ0sPMZBoY1OBiE5hS6Pk3%2FJPG6WOSPbI%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 82fe70e92fa666a9-AMS
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+[{&quot;user_id&quot;:5807619,&quot;id&quot;:87659,&quot;title&quot;:&quot;Amaritudo bis speculum at ad usque volutabrum sunt.&quot;,&quot;body&quot;:&quot;Vinculum deprimo demonstro. Unde eveniet vos. Ara curis crapula. Thymum strenuus aro. Alias aut solio. Alioqui una subnecto. Aspernatur antiquus est. Rerum conduco despirmatio. Tunc territo caute. Eligendi denego totus. Voluptatum cum convoco. Cicuta theatrum corrigo. Curto in ipsa. Benigne in abeo. Cauda ventus stillicidium. Summa utor commodi.&quot;},{&quot;user_id&quot;:5807613,&quot;id&quot;:87656,&quot;title&quot;:&quot;Viriliter totus acerbitas varietas currus socius.&quot;,&quot;body&quot;:&quot;Civis tempora dolore. Enim aegrotatio tardus. Currus consequuntur talus. Tergeo sto apparatus. Volutabrum cribro tergo. Confido supellex reiciendis. Arbor tabella vorago. Vero arcesso contabesco. Combibo color turpe. Turba omnis despecto. Cariosus crustulum sponte. Caute eum tergeo. Admoneo vehemens volva. Varius aegrotatio exercitationem. Strues maiores sum. Cito umbra stabilis. Usque adduco id. Casus sollers adaugeo. Candidus tepidus triginta.&quot;},{&quot;user_id&quot;:5807613,&quot;id&quot;:87655,&quot;title&quot;:&quot;Spes vomito credo accusator bibo ubi sol.&quot;,&quot;body&quot;:&quot;Quasi brevis cunabula. Vulgivagus coadunatio ea. Stultus dignissimos sponte. Canto cribro corpus. Rerum considero doloribus. Vae sed colligo. Thalassinus sopor uberrime. Ut certe nam. Incidunt admoveo sodalitas. Basium vos xiphias. Balbus viduo atrocitas. Vox acceptus vulgivagus.&quot;},{&quot;user_id&quot;:5807612,&quot;id&quot;:87654,&quot;title&quot;:&quot;Defigo conqueror votum tergiversatio termes creber sunt.&quot;,&quot;body&quot;:&quot;Apto suggero sulum. Minima bestia brevis. Constans peccatus tubineus. Officia et ars. Adulatio agnosco tenax. Animi beatae teneo. Balbus clibanus defungo. Termes consequatur cimentarius. Usus voluptas degero. Adaugeo cimentarius voluptas. Ait calamitas et. Tot amitto carcer. Tamisium peior tenax. Arguo vicissitudo molestiae. Aurum pecco crustulum. Sodalitas nemo aliquam.&quot;},{&quot;user_id&quot;:5807612,&quot;id&quot;:87653,&quot;title&quot;:&quot;Conqueror terra aut vero trucido ascit infit demergo.&quot;,&quot;body&quot;:&quot;Aegre ea ventus. Decerno voluptas sordeo. Fugit cimentarius coniuratio. Damnatio tunc vestigium. Omnis uredo coruscus. Chirographum crapula tamen. Animadverto tyrannus consequatur. Decimus solvo argentum. Taedium tricesimus adfectus. Artificiose canonicus curtus. Theca pax voco. Auxilium aut sit. Degero aut et. Odit vitiosus sui.&quot;},{&quot;user_id&quot;:5807607,&quot;id&quot;:87648,&quot;title&quot;:&quot;Somniculosus et deporto pax vigilo bene maiores succedo cognatus.&quot;,&quot;body&quot;:&quot;Atque repudiandae viscus. Verus terror clementia. Ambulo denuncio cinis. Ademptio necessitatibus benevolentia. Volva vindico subiungo. Virtus eos autem. Constans ara dapifer. Qui convoco comptus. Triduana viriliter tabernus. Strenuus accipio agnitio. Repellat possimus templum. Soleo depraedor statim. Sursum eaque acer.&quot;},{&quot;user_id&quot;:5807604,&quot;id&quot;:87647,&quot;title&quot;:&quot;Sub vel solvo tametsi animi.&quot;,&quot;body&quot;:&quot;Qui convoco addo. Cauda voluptate celebrer. Abstergo dedico accommodo. Cilicium compello labore. Callide tutis expedita. Vero recusandae curvus. Cado vox summopere. Capillus despecto tribuo. Decerno ambulo fugit. Virgo vulpes tactus. Despirmatio cito cuius.&quot;},{&quot;user_id&quot;:5807601,&quot;id&quot;:87646,&quot;title&quot;:&quot;Alienus spiculum abutor caterva uxor.&quot;,&quot;body&quot;:&quot;Aut apparatus doloremque. Cohibeo theatrum deprimo. Creber defendo ver. Eaque nobis correptius. Placeat agnitio soluta. Apparatus talus verto. Vix urbs temptatio. Benevolentia adimpleo patruus. Conturbo spero conculco. Placeat voluptate atavus. Tunc sint voluptatum. Tempore conservo pecco.&quot;},{&quot;user_id&quot;:5807600,&quot;id&quot;:87645,&quot;title&quot;:&quot;Abduco dolorem cinis provident sum terebro.&quot;,&quot;body&quot;:&quot;Corona amplitudo esse. Vomica demitto subnecto. Tabula aut quia. Tenuis statua calco. Voluptate charisma demitto. Aspicio torrens amita. Audeo clementia ut. Adhaero sophismata denique. Spectaculum constans utique. Compono subiungo aranea. Sunt creta ipsa. Comes balbus comis.&quot;},{&quot;user_id&quot;:5807599,&quot;id&quot;:87644,&quot;title&quot;:&quot;Despirmatio aspicio explicabo quod sopor.&quot;,&quot;body&quot;:&quot;Vado despirmatio vereor. Cetera impedit sodalitas. Attero absum eum. Voluptate cupio pecunia. Clibanus crudelis certo. Derideo terminatio conatus. Argumentum stabilis admoveo. Canonicus dolor adaugeo. Soluta caries verto. Casso utpote sortitus. Totidem quia cubitum. Tepidus confugo crux. Tenax sonitus depromo. Commodo summopere repellat. Alo accendo thymum. Causa velit officia.&quot;}]
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match each $..name[3] == &#39;Defigo conqueror votum tergiversatio termes creber sunt.&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4:26]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4:26]</span>
+                <span class="scenario-name">Testando o get de informações - negativa</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>399</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4:26]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://gorest.co.in/public/v2&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">17:08:21.506 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;users/1830415&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">397</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.28">17:08:21.509 request:
+1 &gt; GET https://gorest.co.in/public/v2/users/1830415
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:08:21.903 response time in milliseconds: 394
+1 &lt; 200
+1 &lt; Date: Sun, 03 Dec 2023 20:08:21 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; etag: W/&quot;2e3daf6e869052c9e6fb856636be4530&quot;
+1 &lt; referrer-policy: strict-origin-when-cross-origin
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-download-options: noopen
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-permitted-cross-domain-policies: none
+1 &lt; x-request-id: 493b379d-b7b9-4cea-adac-09ab2986b1a1
+1 &lt; x-runtime: 0.017275
+1 &lt; x-xss-protection: 0
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=nBp6mv6VOceRhu55ziLntMlYNf5hZt9OLZujr3qKmTbOYl0RT7NVnvua6%2BJ4KWCGqCUPFUuJbRSMo176rLb%2FyNHsd7XbZ4turfmYPTl25w5KG7ZIsyk%2BK8OAvFdfdao%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 82fe70edde240322-GRU
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Aadrika Mahajan&quot;,&quot;id&quot;:1830415,&quot;email&quot;:&quot;aadrika_mahajan@roob.test&quot;,&quot;status&quot;:&quot;inactive&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref failed">29</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>match $.id == 59451651651</span>
+      </div>
+    </div>
+    <div class="time-cell failed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.29">17:08:21.906 classpath:prova/prova.feature:29
+Then match $.id == 59451651651
+match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  1830415
+  5.9451651651E10
+
+classpath:prova/prova.feature:29
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[5:31]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[5:31]</span>
+                <span class="scenario-name">Testando metodo delete</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1369</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[5:31]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[5:31]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://gorest.co.in/public/v2&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">17:08:21.920 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;users/1830415&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer 0a3c3778149758863cea1e0c4e184bec413549cd4208965f72ad938cede59f37&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method delete</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1368</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.34">17:08:21.923 request:
+1 &gt; DELETE https://gorest.co.in/public/v2/users/1830415
+1 &gt; Authorization: Bearer 0a3c3778149758863cea1e0c4e184bec413549cd4208965f72ad938cede59f37
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:08:23.289 response time in milliseconds: 1365
+1 &lt; 204
+1 &lt; Date: Sun, 03 Dec 2023 20:08:23 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: no-cache
+1 &lt; referrer-policy: strict-origin-when-cross-origin
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-download-options: noopen
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-permitted-cross-domain-policies: none
+1 &lt; x-ratelimit-limit: 90
+1 &lt; x-ratelimit-remaining: 90
+1 &lt; x-ratelimit-reset: 1
+1 &lt; x-request-id: bf722166-8333-4da0-b9db-656414208614
+1 &lt; x-runtime: 0.245488
+1 &lt; x-xss-protection: 0
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=lvglF2vJqyfvaX3qjH6BBpSB9hVmmflWND7%2F8JkI0qRVYRDIKCHSsZprLceQTmz78T9vGEyHUR25k07%2FQGFEto4Ay3GWix1lFUyTaB1UIFp9V6Qj9K%2FAeEJUa6C1nzg%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 82fe70f3ca3001c9-CDG
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 204</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
