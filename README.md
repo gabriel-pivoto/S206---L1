@@ -21,3 +21,32 @@ Para a geração do relátorio abra o terminal novamente e utilize o comando aba
 ```
  ./node_modules/.bin/cypress run --spec 'cypress/e2e/trabalhoUI.cy.js/'
 ```
+
+
+# INSTALAÇÃO DO PROJETO DE KARATE 
+# NECESSÁRIO A INSTALAÇÃO DO MAVEN
+Maven (mvn) https://maven.apache.org
+### Comandos úteis Karate:
+
+```
+Criar estrutura inicial Karate:
+
+mvn archetype:generate \
+-DarchetypeGroupId=com.intuit.karate \
+-DarchetypeArtifactId=karate-archetype \
+-DarchetypeVersion=1.0.1 \
+-DgroupId=aula.inatel \
+-DartifactId=aula_inatel
+
+Executar um teste a partir do Runner ou suíte:
+mvn test –Dtest=Ben10Runner
+
+Executar testes separados por tags:
+mvn test -Dkarate.options="--tags @tag”
+
+Para ignorar alguma tag:
+mvn test -Dkarate.options="--tags ~@tag" 
+
+Todas as tags podem ser configuradas na classe da suíte de testes. (InatelTest.Java)
+
+```
