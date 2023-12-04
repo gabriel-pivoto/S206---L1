@@ -24,9 +24,9 @@ Scenario: Testando o get de informações
   And match each $..name[3] == 'Defigo conqueror votum tergiversatio termes creber sunt.'
 
 Scenario: Testando o get de informações - negativa
-  Given path 'users/1830415'
+  Given path 'users/22222'
   When method get
-  Then match $.id != 59451651651
+  Then match $.message == "Resource not found"
 
 Scenario: Testando metodo delete
   Given path 'users/1830415'
