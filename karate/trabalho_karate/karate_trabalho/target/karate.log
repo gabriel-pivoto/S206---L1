@@ -4587,3 +4587,341 @@ match failed: EQUALS
   'ghsfgcvbcvb'
 
 classpath:apiben10/ben10.feature:36
+14:53:36.808 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:53:37.560 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:53:37.826 [main] DEBUG com.intuit.karate - request:
+1 > GET https://www.omdbapi.com/?t=ben_10&apikey=6585022c
+1 > Host: www.omdbapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:53:38.098 [main] DEBUG com.intuit.karate - response time in milliseconds: 249
+1 < 200
+1 < Date: Mon, 04 Dec 2023 17:53:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: public, max-age=86400
+1 < expires: Sat, 02 Dec 2023 23:57:04 GMT
+1 < last-modified: Sat, 02 Dec 2023 22:57:04 GMT
+1 < vary: *, Accept-Encoding
+1 < x-aspnet-version: 4.0.30319
+1 < x-powered-by: ASP.NET
+1 < access-control-allow-origin: *
+1 < CF-Cache-Status: HIT
+1 < Age: 154593
+1 < Server: cloudflare
+1 < CF-RAY: 8305e8ef08f3a499-GRU
+{"Released":"27 Dec 2005","totalSeasons":"4","Metascore":"N\/A","imdbID":"tt0760437","Plot":"The story of Ben Tennyson, a typical kid who becomes very atypical after he discovers the Omnitrix, a mysterious alien device with the power to transform the wearer into ten different alien species.","Director":"N\/A","Title":"Ben 10","Actors":"Tara Strong, Paul Eiding, Meagan Moore","imdbRating":"7.5","imdbVotes":"25,679","Ratings":[{"Value":"7.5\/10","Source":"Internet Movie Database"}],"Response":"True","Runtime":"30 min","Type":"series","Awards":"1 win & 2 nominations","Year":"2005\u20132008","Language":"English","Rated":"TV-Y7-FV","Poster":"https:\/\/m.media-amazon.com\/images\/M\/MV5BZjg2ZjViMTktNWQ1Yy00ODZiLWE1OTgtNDY3MjI0OGUyNjNhXkEyXkFqcGdeQXVyNTk4NDI4NTE@._V1_SX300.jpg","Country":"United States","Genre":"Animation, Action, Adventure","Writer":"Joe Casey, Joe Kelly, Man of Action"}
+14:53:38.109 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:53:38.111 [main] DEBUG com.intuit.karate - request:
+1 > GET https://www.omdbapi.com/?t=ben_10&apikey=6585022c
+1 > Host: www.omdbapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:53:38.173 [main] DEBUG com.intuit.karate - response time in milliseconds: 62
+1 < 200
+1 < Date: Mon, 04 Dec 2023 17:53:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: public, max-age=86400
+1 < expires: Sat, 02 Dec 2023 23:57:04 GMT
+1 < last-modified: Sat, 02 Dec 2023 22:57:04 GMT
+1 < vary: *, Accept-Encoding
+1 < x-aspnet-version: 4.0.30319
+1 < x-powered-by: ASP.NET
+1 < access-control-allow-origin: *
+1 < CF-Cache-Status: HIT
+1 < Age: 154593
+1 < Server: cloudflare
+1 < CF-RAY: 8305e8efbc3302f4-GRU
+{"Released":"27 Dec 2005","totalSeasons":"4","Metascore":"N\/A","imdbID":"tt0760437","Plot":"The story of Ben Tennyson, a typical kid who becomes very atypical after he discovers the Omnitrix, a mysterious alien device with the power to transform the wearer into ten different alien species.","Director":"N\/A","Title":"Ben 10","Actors":"Tara Strong, Paul Eiding, Meagan Moore","imdbRating":"7.5","imdbVotes":"25,679","Ratings":[{"Value":"7.5\/10","Source":"Internet Movie Database"}],"Response":"True","Runtime":"30 min","Type":"series","Awards":"1 win & 2 nominations","Year":"2005\u20132008","Language":"English","Rated":"TV-Y7-FV","Poster":"https:\/\/m.media-amazon.com\/images\/M\/MV5BZjg2ZjViMTktNWQ1Yy00ODZiLWE1OTgtNDY3MjI0OGUyNjNhXkEyXkFqcGdeQXVyNTk4NDI4NTE@._V1_SX300.jpg","Country":"United States","Genre":"Animation, Action, Adventure","Writer":"Joe Casey, Joe Kelly, Man of Action"}
+14:53:38.201 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:53:38.205 [main] DEBUG com.intuit.karate - request:
+1 > GET https://www.omdbapi.com/?t=ben_10&season=2&episode=10&apikey=6585022c
+1 > Host: www.omdbapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:53:38.260 [main] DEBUG com.intuit.karate - response time in milliseconds: 54
+1 < 200
+1 < Date: Mon, 04 Dec 2023 17:53:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: public, max-age=86400
+1 < expires: Sun, 03 Dec 2023 13:24:02 GMT
+1 < last-modified: Sun, 03 Dec 2023 12:24:02 GMT
+1 < vary: *, Accept-Encoding
+1 < x-aspnet-version: 4.0.30319
+1 < x-powered-by: ASP.NET
+1 < access-control-allow-origin: *
+1 < CF-Cache-Status: HIT
+1 < Age: 106175
+1 < Server: cloudflare
+1 < CF-RAY: 8305e8f049c102fa-GRU
+{"Released":"18 Jul 2006","Metascore":"N\/A","imdbID":"tt0847944","Plot":"Being special guests at the first underwater resort excites Ben and Gwen till they meet the owner's snobbish grandson and a plethora of vicious undersea aliens.","Director":"Sebastian Montes","Title":"They Lurk Below","Actors":"Tara Strong, Meagan Moore, Paul Eiding","imdbRating":"N\/A","imdbVotes":"448","seriesID":"tt0760437","Ratings":[],"Response":"True","Episode":"10","Runtime":"23 min","Type":"episode","Awards":"N\/A","Year":"2006","Language":"N\/A","Rated":"TV-Y7","Poster":"https:\/\/m.media-amazon.com\/images\/M\/MV5BZWQ4YmFhMjEtODczNi00MDcxLTkxN2EtYTlmYTc4OThjNTYzXkEyXkFqcGdeQXVyNTk4NDI4NTE@._V1_SX300.jpg","Country":"N\/A","Genre":"Animation, Action, Adventure","Season":"2","Writer":"Tom Pugsley, Greg Klein, Duncan Rouleau"}
+14:53:38.267 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:53:38.268 [main] DEBUG com.intuit.karate - request:
+1 > GET https://www.omdbapi.com/?t=ben_10&season=2&apikey=6585022c
+1 > Host: www.omdbapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:53:38.333 [main] DEBUG com.intuit.karate - response time in milliseconds: 63
+1 < 200
+1 < Date: Mon, 04 Dec 2023 17:53:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: public, max-age=86400
+1 < expires: Sun, 03 Dec 2023 13:19:52 GMT
+1 < last-modified: Sun, 03 Dec 2023 12:19:52 GMT
+1 < vary: *, Accept-Encoding
+1 < x-aspnet-version: 4.0.30319
+1 < x-powered-by: ASP.NET
+1 < access-control-allow-origin: *
+1 < CF-Cache-Status: HIT
+1 < Age: 106425
+1 < Server: cloudflare
+1 < CF-RAY: 8305e8f0bbef4d24-GRU
+{"Response":"True","totalSeasons":"4","Episodes":[{"Episode":"1","Released":"2006-05-29","imdbID":"tt0826286","Title":"Truth","imdbRating":"7.8"},{"Episode":"2","Released":"2006-05-30","imdbID":"tt0826284","Title":"The Big Tick","imdbRating":"7.4"},{"Episode":"3","Released":"2006-05-31","imdbID":"tt0826281","Title":"Framed","imdbRating":"8.5"},{"Episode":"4","Released":"2006-06-04","imdbID":"tt0826283","Title":"Gwen 10","imdbRating":"7.8"},{"Episode":"5","Released":"2006-06-07","imdbID":"tt0826282","Title":"Grudge Match","imdbRating":"8.3"},{"Episode":"6","Released":"2006-06-13","imdbID":"tt0826285","Title":"The Galactic Enforcers","imdbRating":"7.4"},{"Episode":"7","Released":"2006-06-21","imdbID":"tt0826280","Title":"Camp Fear","imdbRating":"7.8"},{"Episode":"8","Released":"2006-07-06","imdbID":"tt0847945","Title":"Ultimate Weapon","imdbRating":"7.6"},{"Episode":"9","Released":"2006-07-12","imdbID":"tt0844405","Title":"Tough Luck","imdbRating":"7.8"},{"Episode":"10","Released":"2006-07-18","imdbID":"tt0847944","Title":"They Lurk Below","imdbRating":"N\/A"},{"Episode":"11","Released":"2006-07-25","imdbID":"tt0847943","Title":"Ghostfreaked Out","imdbRating":"N\/A"},{"Episode":"12","Released":"2006-08-25","imdbID":"tt0859901","Title":"Dr. Animo and the Mutant Ray","imdbRating":"N\/A"},{"Episode":"13","Released":"2006-10-09","imdbID":"tt0879431","Title":"Back with a Vengeance","imdbRating":"N\/A"}],"Title":"Ben 10","Season":"2"}
+14:53:38.343 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:53:38.345 [main] DEBUG com.intuit.karate - request:
+1 > GET https://www.omdbapi.com/?t=ben_10&season=2&apikey=6585022c
+1 > Host: www.omdbapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:53:38.397 [main] DEBUG com.intuit.karate - response time in milliseconds: 50
+1 < 200
+1 < Date: Mon, 04 Dec 2023 17:53:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: public, max-age=86400
+1 < expires: Sun, 03 Dec 2023 13:43:25 GMT
+1 < last-modified: Sun, 03 Dec 2023 12:43:25 GMT
+1 < vary: *, Accept-Encoding
+1 < x-aspnet-version: 4.0.30319
+1 < x-powered-by: ASP.NET
+1 < access-control-allow-origin: *
+1 < CF-Cache-Status: HIT
+1 < Age: 105012
+1 < Server: cloudflare
+1 < CF-RAY: 8305e8f12d7e1a9f-GRU
+{"Response":"True","totalSeasons":"4","Episodes":[{"Episode":"1","Released":"2006-05-29","imdbID":"tt0826286","Title":"Truth","imdbRating":"7.8"},{"Episode":"2","Released":"2006-05-30","imdbID":"tt0826284","Title":"The Big Tick","imdbRating":"7.4"},{"Episode":"3","Released":"2006-05-31","imdbID":"tt0826281","Title":"Framed","imdbRating":"8.5"},{"Episode":"4","Released":"2006-06-04","imdbID":"tt0826283","Title":"Gwen 10","imdbRating":"7.8"},{"Episode":"5","Released":"2006-06-07","imdbID":"tt0826282","Title":"Grudge Match","imdbRating":"8.3"},{"Episode":"6","Released":"2006-06-13","imdbID":"tt0826285","Title":"The Galactic Enforcers","imdbRating":"7.4"},{"Episode":"7","Released":"2006-06-21","imdbID":"tt0826280","Title":"Camp Fear","imdbRating":"7.8"},{"Episode":"8","Released":"2006-07-06","imdbID":"tt0847945","Title":"Ultimate Weapon","imdbRating":"7.6"},{"Episode":"9","Released":"2006-07-12","imdbID":"tt0844405","Title":"Tough Luck","imdbRating":"7.8"},{"Episode":"10","Released":"2006-07-18","imdbID":"tt0847944","Title":"They Lurk Below","imdbRating":"N\/A"},{"Episode":"11","Released":"2006-07-25","imdbID":"tt0847943","Title":"Ghostfreaked Out","imdbRating":"N\/A"},{"Episode":"12","Released":"2006-08-25","imdbID":"tt0859901","Title":"Dr. Animo and the Mutant Ray","imdbRating":"N\/A"},{"Episode":"13","Released":"2006-10-09","imdbID":"tt0879431","Title":"Back with a Vengeance","imdbRating":"N\/A"}],"Title":"Ben 10","Season":"2"}
+14:53:38.401 [main] ERROR com.intuit.karate - classpath:apiben10/ben10.feature:30
+Then not match response.totalSeasons == '3333'
+no step-definition method match found for: not match response.totalSeasons == '3333'
+classpath:apiben10/ben10.feature:30
+14:53:38.416 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:53:38.422 [main] DEBUG com.intuit.karate - request:
+1 > GET https://www.omdbapi.com/?t=ben_10&season=2&episode=2&apikey=6585022c
+1 > Host: www.omdbapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:53:38.484 [main] DEBUG com.intuit.karate - response time in milliseconds: 61
+1 < 200
+1 < Date: Mon, 04 Dec 2023 17:53:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: public, max-age=86400
+1 < expires: Sun, 03 Dec 2023 13:40:18 GMT
+1 < last-modified: Sun, 03 Dec 2023 12:40:18 GMT
+1 < vary: *, Accept-Encoding
+1 < x-aspnet-version: 4.0.30319
+1 < x-powered-by: ASP.NET
+1 < access-control-allow-origin: *
+1 < CF-Cache-Status: HIT
+1 < Age: 105199
+1 < Server: cloudflare
+1 < CF-RAY: 8305e8f1ac4ea5a9-GRU
+{"Released":"30 May 2006","Metascore":"N\/A","imdbID":"tt0826284","Plot":"Ben discovers a new alien in the Omnitrix. As he tries to figure out the alien's abilities, a meteor crashes nearby. A giant tick emerges. It's already destroyed several other planets. Now Earth is next.","Director":"Sebastian Montes","Title":"The Big Tick","Actors":"Tara Strong, Meagan Moore, Paul Eiding","imdbRating":"7.4","imdbVotes":"452","seriesID":"tt0760437","Ratings":[{"Value":"7.4\/10","Source":"Internet Movie Database"}],"Response":"True","Episode":"2","Runtime":"23 min","Type":"episode","Awards":"N\/A","Year":"2006","Language":"N\/A","Rated":"TV-Y7","Poster":"https:\/\/m.media-amazon.com\/images\/M\/MV5BYTJkNWFhZmMtM2M5ZS00YTdkLWE4YWMtNGM5ODlmNjdkYTVhXkEyXkFqcGdeQXVyNTc0NjY1ODk@._V1_SX300.jpg","Country":"N\/A","Genre":"Animation, Action, Adventure","Season":"2","Writer":"Kevin Hopps, Duncan Rouleau, Joe Casey"}
+14:53:38.485 [main] ERROR com.intuit.karate - classpath:apiben10/ben10.feature:36
+Then match response.Title == 'ghsfgcvbcvb'
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'The Big Tick'
+  'ghsfgcvbcvb'
+
+classpath:apiben10/ben10.feature:36
+14:54:07.659 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:54:08.431 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:54:08.715 [main] DEBUG com.intuit.karate - request:
+1 > GET https://www.omdbapi.com/?t=ben_10&apikey=6585022c
+1 > Host: www.omdbapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:54:08.993 [main] DEBUG com.intuit.karate - response time in milliseconds: 259
+1 < 200
+1 < Date: Mon, 04 Dec 2023 17:54:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: public, max-age=86400
+1 < expires: Sat, 02 Dec 2023 23:20:17 GMT
+1 < last-modified: Sat, 02 Dec 2023 22:20:17 GMT
+1 < vary: *, Accept-Encoding
+1 < x-aspnet-version: 4.0.30319
+1 < x-powered-by: ASP.NET
+1 < access-control-allow-origin: *
+1 < CF-Cache-Status: HIT
+1 < Age: 156831
+1 < Server: cloudflare
+1 < CF-RAY: 8305e9b03b7c1d40-GIG
+{"Released":"27 Dec 2005","totalSeasons":"4","Metascore":"N\/A","imdbID":"tt0760437","Plot":"The story of Ben Tennyson, a typical kid who becomes very atypical after he discovers the Omnitrix, a mysterious alien device with the power to transform the wearer into ten different alien species.","Director":"N\/A","Title":"Ben 10","Actors":"Tara Strong, Paul Eiding, Meagan Moore","imdbRating":"7.5","imdbVotes":"25,679","Ratings":[{"Value":"7.5\/10","Source":"Internet Movie Database"}],"Response":"True","Runtime":"30 min","Type":"series","Awards":"1 win & 2 nominations","Year":"2005\u20132008","Language":"English","Rated":"TV-Y7-FV","Poster":"https:\/\/m.media-amazon.com\/images\/M\/MV5BZjg2ZjViMTktNWQ1Yy00ODZiLWE1OTgtNDY3MjI0OGUyNjNhXkEyXkFqcGdeQXVyNTk4NDI4NTE@._V1_SX300.jpg","Country":"United States","Genre":"Animation, Action, Adventure","Writer":"Joe Casey, Joe Kelly, Man of Action"}
+14:54:09.005 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:54:09.007 [main] DEBUG com.intuit.karate - request:
+1 > GET https://www.omdbapi.com/?t=ben_10&apikey=6585022c
+1 > Host: www.omdbapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:54:09.065 [main] DEBUG com.intuit.karate - response time in milliseconds: 58
+1 < 200
+1 < Date: Mon, 04 Dec 2023 17:54:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: public, max-age=86400
+1 < expires: Sun, 03 Dec 2023 13:16:04 GMT
+1 < last-modified: Sun, 03 Dec 2023 12:16:04 GMT
+1 < vary: *, Accept-Encoding
+1 < x-aspnet-version: 4.0.30319
+1 < x-powered-by: ASP.NET
+1 < access-control-allow-origin: *
+1 < CF-Cache-Status: HIT
+1 < Age: 106683
+1 < Server: cloudflare
+1 < CF-RAY: 8305e9b0dfdb1a8f-GRU
+{"Released":"27 Dec 2005","totalSeasons":"4","Metascore":"N\/A","imdbID":"tt0760437","Plot":"The story of Ben Tennyson, a typical kid who becomes very atypical after he discovers the Omnitrix, a mysterious alien device with the power to transform the wearer into ten different alien species.","Director":"N\/A","Title":"Ben 10","Actors":"Tara Strong, Paul Eiding, Meagan Moore","imdbRating":"7.5","imdbVotes":"25,679","Ratings":[{"Value":"7.5\/10","Source":"Internet Movie Database"}],"Response":"True","Runtime":"30 min","Type":"series","Awards":"1 win & 2 nominations","Year":"2005\u20132008","Language":"English","Rated":"TV-Y7-FV","Poster":"https:\/\/m.media-amazon.com\/images\/M\/MV5BZjg2ZjViMTktNWQ1Yy00ODZiLWE1OTgtNDY3MjI0OGUyNjNhXkEyXkFqcGdeQXVyNTk4NDI4NTE@._V1_SX300.jpg","Country":"United States","Genre":"Animation, Action, Adventure","Writer":"Joe Casey, Joe Kelly, Man of Action"}
+14:54:09.089 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:54:09.092 [main] DEBUG com.intuit.karate - request:
+1 > GET https://www.omdbapi.com/?t=ben_10&season=2&episode=10&apikey=6585022c
+1 > Host: www.omdbapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:54:09.145 [main] DEBUG com.intuit.karate - response time in milliseconds: 53
+1 < 200
+1 < Date: Mon, 04 Dec 2023 17:54:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: public, max-age=86400
+1 < expires: Sun, 03 Dec 2023 13:03:33 GMT
+1 < last-modified: Sun, 03 Dec 2023 12:03:33 GMT
+1 < vary: *, Accept-Encoding
+1 < x-aspnet-version: 4.0.30319
+1 < x-powered-by: ASP.NET
+1 < access-control-allow-origin: *
+1 < CF-Cache-Status: HIT
+1 < Age: 107434
+1 < Server: cloudflare
+1 < CF-RAY: 8305e9b15c294d0f-GRU
+{"Released":"18 Jul 2006","Metascore":"N\/A","imdbID":"tt0847944","Plot":"Being special guests at the first underwater resort excites Ben and Gwen till they meet the owner's snobbish grandson and a plethora of vicious undersea aliens.","Director":"Sebastian Montes","Title":"They Lurk Below","Actors":"Tara Strong, Meagan Moore, Paul Eiding","imdbRating":"N\/A","imdbVotes":"448","seriesID":"tt0760437","Ratings":[],"Response":"True","Episode":"10","Runtime":"23 min","Type":"episode","Awards":"N\/A","Year":"2006","Language":"N\/A","Rated":"TV-Y7","Poster":"https:\/\/m.media-amazon.com\/images\/M\/MV5BZWQ4YmFhMjEtODczNi00MDcxLTkxN2EtYTlmYTc4OThjNTYzXkEyXkFqcGdeQXVyNTk4NDI4NTE@._V1_SX300.jpg","Country":"N\/A","Genre":"Animation, Action, Adventure","Season":"2","Writer":"Tom Pugsley, Greg Klein, Duncan Rouleau"}
+14:54:09.152 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:54:09.153 [main] DEBUG com.intuit.karate - request:
+1 > GET https://www.omdbapi.com/?t=ben_10&season=2&apikey=6585022c
+1 > Host: www.omdbapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:54:09.206 [main] DEBUG com.intuit.karate - response time in milliseconds: 53
+1 < 200
+1 < Date: Mon, 04 Dec 2023 17:54:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: public, max-age=86400
+1 < expires: Sun, 03 Dec 2023 13:39:37 GMT
+1 < last-modified: Sun, 03 Dec 2023 12:39:37 GMT
+1 < vary: *, Accept-Encoding
+1 < x-aspnet-version: 4.0.30319
+1 < x-powered-by: ASP.NET
+1 < access-control-allow-origin: *
+1 < CF-Cache-Status: HIT
+1 < Age: 105270
+1 < Server: cloudflare
+1 < CF-RAY: 8305e9b1bf24a531-GRU
+{"Response":"True","totalSeasons":"4","Episodes":[{"Episode":"1","Released":"2006-05-29","imdbID":"tt0826286","Title":"Truth","imdbRating":"7.8"},{"Episode":"2","Released":"2006-05-30","imdbID":"tt0826284","Title":"The Big Tick","imdbRating":"7.4"},{"Episode":"3","Released":"2006-05-31","imdbID":"tt0826281","Title":"Framed","imdbRating":"8.5"},{"Episode":"4","Released":"2006-06-04","imdbID":"tt0826283","Title":"Gwen 10","imdbRating":"7.8"},{"Episode":"5","Released":"2006-06-07","imdbID":"tt0826282","Title":"Grudge Match","imdbRating":"8.3"},{"Episode":"6","Released":"2006-06-13","imdbID":"tt0826285","Title":"The Galactic Enforcers","imdbRating":"7.4"},{"Episode":"7","Released":"2006-06-21","imdbID":"tt0826280","Title":"Camp Fear","imdbRating":"7.8"},{"Episode":"8","Released":"2006-07-06","imdbID":"tt0847945","Title":"Ultimate Weapon","imdbRating":"7.6"},{"Episode":"9","Released":"2006-07-12","imdbID":"tt0844405","Title":"Tough Luck","imdbRating":"7.8"},{"Episode":"10","Released":"2006-07-18","imdbID":"tt0847944","Title":"They Lurk Below","imdbRating":"N\/A"},{"Episode":"11","Released":"2006-07-25","imdbID":"tt0847943","Title":"Ghostfreaked Out","imdbRating":"N\/A"},{"Episode":"12","Released":"2006-08-25","imdbID":"tt0859901","Title":"Dr. Animo and the Mutant Ray","imdbRating":"N\/A"},{"Episode":"13","Released":"2006-10-09","imdbID":"tt0879431","Title":"Back with a Vengeance","imdbRating":"N\/A"}],"Title":"Ben 10","Season":"2"}
+14:54:09.213 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:54:09.214 [main] DEBUG com.intuit.karate - request:
+1 > GET https://www.omdbapi.com/?t=ben_10&season=2&apikey=6585022c
+1 > Host: www.omdbapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:54:09.265 [main] DEBUG com.intuit.karate - response time in milliseconds: 49
+1 < 200
+1 < Date: Mon, 04 Dec 2023 17:54:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: public, max-age=86400
+1 < expires: Sun, 03 Dec 2023 13:19:52 GMT
+1 < last-modified: Sun, 03 Dec 2023 12:19:52 GMT
+1 < vary: *, Accept-Encoding
+1 < x-aspnet-version: 4.0.30319
+1 < x-powered-by: ASP.NET
+1 < access-control-allow-origin: *
+1 < CF-Cache-Status: HIT
+1 < Age: 106456
+1 < Server: cloudflare
+1 < CF-RAY: 8305e9b21cc000e0-GRU
+{"Response":"True","totalSeasons":"4","Episodes":[{"Episode":"1","Released":"2006-05-29","imdbID":"tt0826286","Title":"Truth","imdbRating":"7.8"},{"Episode":"2","Released":"2006-05-30","imdbID":"tt0826284","Title":"The Big Tick","imdbRating":"7.4"},{"Episode":"3","Released":"2006-05-31","imdbID":"tt0826281","Title":"Framed","imdbRating":"8.5"},{"Episode":"4","Released":"2006-06-04","imdbID":"tt0826283","Title":"Gwen 10","imdbRating":"7.8"},{"Episode":"5","Released":"2006-06-07","imdbID":"tt0826282","Title":"Grudge Match","imdbRating":"8.3"},{"Episode":"6","Released":"2006-06-13","imdbID":"tt0826285","Title":"The Galactic Enforcers","imdbRating":"7.4"},{"Episode":"7","Released":"2006-06-21","imdbID":"tt0826280","Title":"Camp Fear","imdbRating":"7.8"},{"Episode":"8","Released":"2006-07-06","imdbID":"tt0847945","Title":"Ultimate Weapon","imdbRating":"7.6"},{"Episode":"9","Released":"2006-07-12","imdbID":"tt0844405","Title":"Tough Luck","imdbRating":"7.8"},{"Episode":"10","Released":"2006-07-18","imdbID":"tt0847944","Title":"They Lurk Below","imdbRating":"N\/A"},{"Episode":"11","Released":"2006-07-25","imdbID":"tt0847943","Title":"Ghostfreaked Out","imdbRating":"N\/A"},{"Episode":"12","Released":"2006-08-25","imdbID":"tt0859901","Title":"Dr. Animo and the Mutant Ray","imdbRating":"N\/A"},{"Episode":"13","Released":"2006-10-09","imdbID":"tt0879431","Title":"Back with a Vengeance","imdbRating":"N\/A"}],"Title":"Ben 10","Season":"2"}
+14:54:09.272 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:54:09.275 [main] DEBUG com.intuit.karate - request:
+1 > GET https://www.omdbapi.com/?t=ben_10&season=2&episode=2&apikey=6585022c
+1 > Host: www.omdbapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:54:09.325 [main] DEBUG com.intuit.karate - response time in milliseconds: 49
+1 < 200
+1 < Date: Mon, 04 Dec 2023 17:54:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: public, max-age=86400
+1 < expires: Sun, 03 Dec 2023 13:47:12 GMT
+1 < last-modified: Sun, 03 Dec 2023 12:47:12 GMT
+1 < vary: *, Accept-Encoding
+1 < x-aspnet-version: 4.0.30319
+1 < x-powered-by: ASP.NET
+1 < access-control-allow-origin: *
+1 < CF-Cache-Status: HIT
+1 < Age: 104816
+1 < Server: cloudflare
+1 < CF-RAY: 8305e9b27cd051ff-GRU
+{"Released":"30 May 2006","Metascore":"N\/A","imdbID":"tt0826284","Plot":"Ben discovers a new alien in the Omnitrix. As he tries to figure out the alien's abilities, a meteor crashes nearby. A giant tick emerges. It's already destroyed several other planets. Now Earth is next.","Director":"Sebastian Montes","Title":"The Big Tick","Actors":"Tara Strong, Meagan Moore, Paul Eiding","imdbRating":"7.4","imdbVotes":"452","seriesID":"tt0760437","Ratings":[{"Value":"7.4\/10","Source":"Internet Movie Database"}],"Response":"True","Episode":"2","Runtime":"23 min","Type":"episode","Awards":"N\/A","Year":"2006","Language":"N\/A","Rated":"TV-Y7","Poster":"https:\/\/m.media-amazon.com\/images\/M\/MV5BYTJkNWFhZmMtM2M5ZS00YTdkLWE4YWMtNGM5ODlmNjdkYTVhXkEyXkFqcGdeQXVyNTc0NjY1ODk@._V1_SX300.jpg","Country":"N\/A","Genre":"Animation, Action, Adventure","Season":"2","Writer":"Kevin Hopps, Duncan Rouleau, Joe Casey"}

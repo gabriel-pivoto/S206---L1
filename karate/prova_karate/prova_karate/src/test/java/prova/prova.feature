@@ -26,7 +26,7 @@ Scenario: Testando o get de informações
 Scenario: Testando o get de informações - negativa
   Given path 'users/1830415'
   When method get
-  Then match $.id == 59451651651
+  Then match $.id != 59451651651
 
 Scenario: Testando metodo delete
   Given path 'users/1830415'

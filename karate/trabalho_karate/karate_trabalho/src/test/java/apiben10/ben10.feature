@@ -27,10 +27,10 @@ Scenario: Testando se tem 4 temporadas .
 Scenario: Testando se tem 5 temporadas - teste negativo .
   Given url 'https://www.omdbapi.com/?t=ben_10&season=2&apikey=6585022c'
   When method get
-  Then match response.totalSeasons == '3333'
+  Then  match response.totalSeasons != '3333'
 
 
 Scenario: Testando o get de um episódio específico - negativo .
   Given url 'https://www.omdbapi.com/?t=ben_10&season=2&episode=2&apikey=6585022c'
   When method get
-  Then match response.Title == 'ghsfgcvbcvb'
+  Then match response.Title != 'ghsfgcvbcvb'
